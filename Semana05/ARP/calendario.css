@@ -1,0 +1,90 @@
+.calendar {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+td:hover {
+  background-color: #f0f0f0;
+}
+
+.prev-month,
+.next-month {
+  color: #ccc;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #442c2c91 0%, #39163a 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  width: 100%;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  left: 50;
+  right: 50;
+  display: flex;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0066cc;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0059b3;
+}

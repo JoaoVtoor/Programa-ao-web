@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="medicamentos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html" style="color: rgb(0, 0, 0)">Início</a>
+        </li>
+        <li>
+          <a href="./calendario.html" style="color: rgb(0, 0, 0)"
+            >Agendamento</a
+          >
+        </li>
+        <li>
+          <a href="./consulta.html" style="color: rgb(0, 0, 0)">Consulta</a>
+        </li>
+        <li>
+          <a href="./consult.html" style="color: rgb(0, 0, 0)"
+            >Consultas agendadas</a
+          >
+        </li>
+        <li>
+          <a href="./medicamentos.html" style="color: rgb(0, 0, 0)"
+            >Medicamentos</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Lista de Medicamentos</h2>
+
+    <form id="add-medication-form">
+      <label for="medication-name">Nome:</label>
+      <input type="text" id="medication-name" required />
+
+      <label for="medication-dose">Dose:</label>
+      <input type="text" id="medication-dose" required />
+
+      <label for="medication-frequency">Frequência:</label>
+      <input type="text" id="medication-frequency" required />
+
+      <label for="medication-duration">Duração:</label>
+      <input type="text" id="medication-duration" required />
+
+      <button type="submit">Adicionar Medicamento</button>
+    </form>
+
+    <ul id="medication-list"></ul>
+    <script src="./medicamentos.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Consulta de Pacientes</title>
+    <link rel="stylesheet" href="consulta.css" />
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html" style="color: rgb(0, 0, 0)">Início</a>
+        </li>
+        <li>
+          <a href="./calendario.html" style="color: rgb(0, 0, 0)"
+            >Agendamento</a
+          >
+        </li>
+        <li>
+          <a href="./consulta.html" style="color: rgb(0, 0, 0)">Consulta</a>
+        </li>
+        <li>
+          <a href="./consult.html" style="color: rgb(0, 0, 0)"
+            >Consultas agendadas</a
+          >
+        </li>
+        <li>
+          <a href="./medicamentos.html" style="color: rgb(0, 0, 0)"
+            >Medicamentos</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <h1>Consulta de Pacientes</h1>
+    <div class="tabela-agendamentos">
+      <form>
+        <label for="busca">Buscar por nome ou CPF:</label>
+        <input type="text" id="busca" />
+        <button type="button" id="buscar">Buscar</button>
+      </form>
+      <table id="tabela">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Telefone</th>
+            <th>E-mail</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>João Silva</td>
+            <td>123.456.789-00</td>
+            <td>(11) 1234-5678</td>
+            <td>joao.silva@email.com</td>
+          </tr>
+          <tr>
+            <td>Maria Souza</td>
+            <td>987.654.321-00</td>
+            <td>(11) 9876-5432</td>
+            <td>maria.souza@email.com</td>
+          </tr>
+          <tr>
+            <td>Carlos Ferreira</td>
+            <td>456.789.123-00</td>
+            <td>(11) 5555-5555</td>
+            <td>carlos.ferreira@email.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

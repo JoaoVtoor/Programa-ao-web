@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./calendario.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html" style="color: rgb(0, 0, 0)">Início</a>
+        </li>
+        <li>
+          <a href="./calendario.html" style="color: rgb(0, 0, 0)"
+            >Agendamento</a
+          >
+        </li>
+        <li>
+          <a href="./consulta.html" style="color: rgb(0, 0, 0)">Consulta</a>
+        </li>
+        <li>
+          <a href="./consult.html" style="color: rgb(0, 0, 0)"
+            >Consultas agendadas</a
+          >
+        </li>
+        <li>
+          <a href="./medicamentos.html" style="color: rgb(0, 0, 0)"
+            >Medicamentos</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <h1>Agenda de Consultas</h1>
+
+    <form>
+      <label for="date">Data da consulta:</label>
+      <input type="date" id="date" name="date" />
+
+      <label for="time">Horário:</label>
+      <select id="time" name="time">
+        <option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+      </select>
+
+      <label for="doctor">Médico:</label>
+      <select id="doctor" name="doctor">
+        <option value="Dr. João">Dr. João</option>
+        <option value="Dr. Maria">Dr. Maria</option>
+        <option value="Dr. José">Dr. José</option>
+      </select>
+
+      <label for="type">Tipo de consulta:</label>
+      <select id="type" name="type">
+        <option value="Clínica geral">Clínica geral</option>
+        <option value="Cardiologia">Cardiologia</option>
+        <option value="Dermatologia">Dermatologia</option>
+      </select>
+
+      <input type="submit" value="Agendar" />
+    
+    <div class="calendar">
+      <h2>Calendário</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Dom</th>
+            <th>Seg</th>
+            <th>Ter</th>
+            <th>Qua</th>
+            <th>Qui</th>
+            <th>Sex</th>
+            <th>Sáb</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="prev-month">29</td>
+            <td class="prev-month">30</td>
+            <td class="prev-month">31</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td class="next-month">1</td>
+          </tr>
+        </tbody>
+      </table>
+   
+    </form>
+  </body>
+</html>
