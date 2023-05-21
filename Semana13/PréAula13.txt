@@ -1,0 +1,33 @@
+//Curso de Engenharia de Software - UniEVANGÉLICA
+//Disciplina de Programação Web
+//Dev: João Vitor de Pina Menezes - 2110972
+//20/05/2023
+
+O Nodemon é uma ferramenta muito útil para desenvolvedores que trabalham com o ambiente Node.js. Ele é um utilitário de linha de comando que monitora os arquivos de um projeto 
+Node.js e reinicia automaticamente o servidor sempre que houver uma alteração no código.
+
+O funcionamento do Nodemon é relativamente simples. Após instalado, basta iniciar o servidor Node.js usando o comando "nodemon" em vez de "node". O Nodemon irá monitorar os arquivos 
+do projeto em busca de mudanças e, sempre que detectar uma alteração, irá reiniciar o servidor automaticamente, refletindo as atualizações no código em tempo real. Isso evita a necessidade
+ de reiniciar manualmente o servidor a cada alteração, economizando tempo e tornando o processo de desenvolvimento mais ágil.
+
+As vantagens do uso do Nodemon são:
+
+-Agilidade no desenvolvimento: O Nodemon permite que os desenvolvedores vejam as alterações feitas no código imediatamente, sem a necessidade de reiniciar o servidor manualmente a cada 
+modificação. Isso acelera o processo de desenvolvimento e aumenta a produtividade.
+
+-Facilidade de uso: O Nodemon é fácil de instalar e usar. Basta adicionar o pacote ao projeto e executá-lo a partir da linha de comando. Não requer configurações complexas ou ajustes 
+adicionais.
+
+-Monitoramento automático: O Nodemon realiza o monitoramento dos arquivos automaticamente, sem a necessidade de intervenção manual. Isso torna o processo de desenvolvimento mais 
+conveniente, permitindo que os desenvolvedores se concentrem na codificação em vez de ficarem reiniciando o servidor repetidamente.
+
+Nodemon também apresenta algumas desvantagens:
+
+-Consumo de recursos: Como o Nodemon está constantemente monitorando os arquivos em busca de alterações, pode consumir uma quantidade significativa de recursos do sistema. 
+Isso pode ser um problema em projetos maiores ou em máquinas com recursos limitados.
+
+-Pode gerar loops infinitos: Em certos casos, se o código estiver configurado incorretamente ou ocorrer algum erro lógico, o Nodemon pode entrar em um loop infinito de reinicialização, 
+o que pode causar problemas de estabilidade.
+
+-Não deve ser usado em produção: O Nodemon é uma ferramenta destinada ao desenvolvimento e não é recomendado para uso em ambientes de produção. É importante lembrar de substituí-lo pelo 
+"node" padrão ao implantar o aplicativo em produção.

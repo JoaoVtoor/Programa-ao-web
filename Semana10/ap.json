@@ -1,0 +1,65 @@
+// Curso de Engenharia de Software - UniEVANGÉLICA
+// Disciplina de Programação Web
+// Dev: João Vitor de Pina Menezes -2110972
+// DATA: 10/05/2023
+
+// Dados de uma equipe de ciclismo:
+{
+  "nome": "Equipe A",
+  "patrocinador": "Empresa X",
+  "pais": "Brasil"
+}
+
+// Resposta de criação de uma equipe de ciclismo bem-sucedida:
+{
+  "message": "Equipe criada com sucesso",
+  "data": {
+    "id": "1",
+    "nome": "Equipe A",
+    "patrocinador": "Empresa X",
+    "pais": "Brasil"
+  }
+}
+
+//Lista de equipes de ciclismo:
+{
+  "equipes": [
+    {
+      "id": "1",
+      "nome": "Equipe A",
+      "patrocinador": "Empresa X",
+      "pais": "Brasil"
+    },
+    {
+      "id": "2",
+      "nome": "Equipe B",
+      "patrocinador": "Empresa Y",
+      "pais": "Espanha"
+    }
+  ]
+}
+
+//Dados atualizados de uma equipe de ciclismo:
+{
+  "nome": "Nova Equipe A",
+  "patrocinador": "Nova Empresa",
+  "pais": "Brasil"
+}
+
+// Resposta de atualização de uma equipe de ciclismo bem-sucedida:
+{
+  "message": "Equipe atualizada com sucesso",
+  "data": {
+    "id": "1",
+    "nome": "Nova Equipe A",
+    "patrocinador": "Nova Empresa",
+    "pais": "Brasil"
+  }
+}
+
+//Resposta de remoção de uma equipe de ciclismo bem-sucedida:
+{
+  "message": "Equipe removida com sucesso"
+}
+
+

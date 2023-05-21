@@ -1,0 +1,21 @@
+//Curso de Engenharia de Software - UniEVANGÉLICA
+//Disciplina de Programação Web
+//Dev: João Vitor de Pina Menezes - 2110972
+//20/05/2023
+
+Entidade "Ciclista":
+
+Relacionamento com a entidade "Equipe": Um ciclista pode pertencer a uma equipe específica.
+Relacionamento com a entidade "Resultado": Um ciclista pode ter vários resultados de corridas associados a ele.
+Entidade "Equipe":
+
+Relacionamento com a entidade "Ciclista": Uma equipe pode ter vários ciclistas em sua composição.
+Relacionamento com a entidade "Resultado": Uma equipe pode ter vários resultados de corridas associados a ela.
+Entidade "Corrida":
+
+Relacionamento com a entidade "Resultado": Uma corrida pode ter vários resultados associados a ela.
+Entidade "Resultado":
+
+Relacionamento com a entidade "Ciclista": Um resultado está associado a um ciclista específico.
+Relacionamento com a entidade "Equipe": Um resultado está associado a uma equipe específica.
+Relacionamento com a entidade "Corrida": Um resultado está associado a uma corrida específica.

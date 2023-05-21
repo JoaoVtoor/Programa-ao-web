@@ -1,0 +1,22 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: João Vitor de Pina Menezes -2110972
+DATA: 10/05/2023
+
+
+A utilização de JavaScript como backend, também conhecido como Node.js, permite que a linguagem seja executada no servidor, possibilitando o desenvolvimento de aplicações web completas 
+com um único conjunto de habilidades em JavaScript, tanto no frontend quanto no backend.
+
+Ao contrário do uso tradicional do JavaScript no navegador, o Node.js permite que os desenvolvedores construam servidores web escaláveis e eficientes, lidando com operações de 
+E/S de forma assíncrona e não bloqueante. Isso significa que várias solicitações podem ser processadas simultaneamente, maximizando o desempenho e a capacidade de resposta das aplicações.
+
+O Node.js possui um mecanismo de tempo de execução baseado no mecanismo JavaScript V8 do Google Chrome, que é altamente eficiente. Ele fornece um conjunto abrangente de bibliotecas e 
+módulos que facilitam o desenvolvimento de aplicativos backend robustos, incluindo manipulação de arquivos, acesso a bancos de dados, comunicação em tempo real e criação de APIs.
+
+Uma das vantagens de usar o JavaScript como backend é a capacidade de compartilhar código entre o frontend e o backend, o que simplifica o desenvolvimento e a manutenção do projeto. 
+Além disso, a grande comunidade e o ecossistema vibrante do Node.js oferecem uma variedade de pacotes e frameworks prontos para uso, como Express.js, Hapi.js e Nest.js, que facilitam 
+o desenvolvimento rápido e eficiente.
+
+Com o JavaScript no backend, os desenvolvedores podem construir aplicações web escaláveis, de alto desempenho e em tempo real. Isso torna o JavaScript uma escolha popular para startups 
+e empresas que desejam construir produtos modernos e inovadores, permitindo que desenvolvedores utilizem uma única linguagem em todo o fluxo de desenvolvimento, simplificando a construção 
+e o lançamento de produtos.

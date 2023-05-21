@@ -1,0 +1,14 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: João Vitor de Pina Menezes - 2110972 
+20/05/2023
+
+
+Frontend:
+O frontend pode ser comparado à bicicleta em si, ou seja, a parte que o ciclista interage diretamente. Assim como o frontend de um aplicativo web ou móvel, a bicicleta é a interface visual que permite ao ciclista interagir com o ambiente. Ele inclui componentes como guidão, pedais, selim e rodas, que são semelhantes aos elementos de uma interface gráfica, como botões, menus, formulários e elementos visuais que os usuários veem e interagem.
+
+Backend:
+O backend é como o motor que impulsiona a bicicleta, fornecendo a potência necessária para o movimento. É a parte do sistema que funciona nos bastidores, processando e armazenando dados, e executando a lógica de negócios. No contexto do ciclismo, o backend seria comparado ao sistema mecânico da bicicleta, como as engrenagens, corrente, câmbio e freios. Esses componentes são essenciais para o funcionamento adequado da bicicleta, assim como o backend é responsável pelo processamento de dados e lógica para que um aplicativo funcione corretamente.
+
+API REST:
+A API REST (Representational State Transfer) pode ser comparada a uma rota planejada para o ciclista seguir. É um conjunto de regras e padrões que permite que o frontend (ciclista) se comunique com o backend (motor) de forma eficiente. Assim como o ciclista segue uma rota específica para alcançar seu destino, a API REST define endpoints (pontos de acesso) que o frontend pode usar para enviar solicitações e receber respostas do backend. Essas solicitações e respostas seguem os princípios REST, permitindo que os dados sejam transferidos de forma consistente e estruturada.

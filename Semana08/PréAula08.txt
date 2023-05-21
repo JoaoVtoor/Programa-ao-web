@@ -1,0 +1,30 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: João Vitor de Pina Menezes - 2110972 
+20/05/2023
+
+Produza um resumo sobre utilização de pagina SPA. 
+
+Uma Single-Page Application (SPA), ou Aplicação de Página Única, é um tipo de aplicativo web que oferece uma experiência contínua ao usuário, 
+sem recarregar completamente a página em cada interação. Em vez disso, as SPAs carregam uma única página HTML inicial e, em seguida, atualizam 
+dinamicamente o conteúdo na mesma página, conforme necessário, utilizando recursos como JavaScript e AJAX.
+
+A principal vantagem de utilizar uma SPA é fornecer uma experiência de usuário mais rápida e fluida. Uma vez que a página inicial é 
+o aplicativo pode enviar solicitações ao servidor e receber dados em segundo plano, atualizando apenas as partes relevantes da página. 
+Isso evita a necessidade de recarregar recursos desnecessários e melhora a sensação de responsividade para o usuário.
+
+Além disso, as SPAs permitem uma maior interatividade e dinamicidade, pois podem utilizar frameworks e bibliotecas JavaScript avançadas, 
+como React, Angular ou Vue.js. Essas ferramentas facilitam o gerenciamento do estado da aplicação, o roteamento, a manipulação de eventos 
+e a renderização eficiente de componentes.
+
+Outra vantagem das SPAs é a capacidade de funcionar offline ou em redes instáveis. Elas podem armazenar em cache recursos necessários para 
+a execução do aplicativo, como HTML, CSS e JavaScript, permitindo que o usuário continue usando a aplicação mesmo quando não há uma conexão 
+ativa com a internet.
+
+No entanto, a utilização de uma SPA também apresenta alguns desafios. Como todo o aplicativo é carregado no início, o tempo de carregamento 
+inicial pode ser mais longo, especialmente se a aplicação for muito complexa ou se houver uma conexão de internet lenta. Além disso, as SPAs 
+podem ser mais difíceis de otimizar para os mecanismos de busca, pois o conteúdo é atualizado dinamicamente.
+
+Em resumo, as SPAs oferecem uma experiência de usuário mais fluida, interativa e responsiva, permitindo a atualização do conteúdo em tempo real 
+sem recarregar a página inteira. Embora tenham algumas desvantagens, as SPAs são amplamente utilizadas atualmente devido aos benefícios que proporcionam 
+em termos de usabilidade e desempenho.
