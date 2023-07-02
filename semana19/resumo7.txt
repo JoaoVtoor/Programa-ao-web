@@ -1,0 +1,21 @@
+Framework Híbrido para Gestão de Habilidades: Uma abordagem adaptativa para Product Managers
+
+
+Framework Híbrido para Gestão de Habilidades: Uma abordagem adaptativa para Product Managers
+
+
+Este trabalho aborda o desenvolvimento de um framework híbrido para a gestão de habilidades voltado para Product Managers. O objetivo é criar uma abordagem adaptativa que permita aos Product Managers identificar, desenvolver e aprimorar as habilidades necessárias para o desempenho eficaz de suas funções.
+
+
+O framework proposto combina tanto elementos tradicionais de gestão de habilidades, como avaliações de desempenho e planos de desenvolvimento individual, quanto elementos mais modernos, como a aplicação de tecnologias digitais e abordagens ágeis. A ideia é proporcionar uma estrutura flexível que se adapte às necessidades específicas dos Product Managers, considerando as características únicas de suas funções e ambientes de trabalho.
+
+
+No contexto da disciplina de gestão de projetos, o trabalho busca implementar e testar o framework híbrido em um ambiente prático. Serão desenvolvidos mecanismos de avaliação de habilidades, planos de desenvolvimento personalizados e ferramentas digitais que facilitem o acompanhamento e
+ 
+monitoramento do progresso dos Product Managers em relação às suas habilidades.
+
+
+A contribuição deste trabalho para o campo da gestão de projetos está na proposição de um framework inovador e adaptativo para a gestão de habilidades de Product Managers. A abordagem híbrida combina o melhor de ambos os mundos, trazendo elementos tradicionais e modernos para aprimorar o desempenho e o desenvolvimento profissional desses profissionais.
+
+
+Em resumo, o trabalho "Framework Híbrido para Gestão de Habilidades: Uma abordagem adaptativa para Product Managers" propõe o desenvolvimento de um framework que permite a gestão adaptativa das habilidades necessárias para Product Managers. Através da combinação de elementos tradicionais e modernos, busca-se oferecer uma abordagem flexível e eficaz para aprimorar o desempenho e o desenvolvimento desses profissionais. Essa contribuição traz uma perspectiva inovadora para a gestão de habilidades na área de gestão de projetos.

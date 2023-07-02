@@ -1,0 +1,21 @@
+TrokaTroka: Uma aplicação para trocas de livros
+
+
+Este trabalho aborda o desenvolvimento de uma aplicação chamada "TrokaTroka" que tem como objetivo facilitar a troca de livros entre usuários. A proposta é criar uma plataforma online onde os usuários podem cadastrar os livros que possuem e os livros que desejam trocar, facilitando assim a interação e negociação entre eles.
+
+
+A aplicação TrokaTroka visa criar um ambiente seguro e confiável para que os usuários possam trocar seus livros de forma fácil e eficiente. Os usuários poderão buscar por livros disponíveis para troca, filtrando por título, autor ou categoria, além de poderem visualizar informações sobre o estado do livro e a localização do proprietário.
+
+
+No contexto da disciplina de programação web, o trabalho propõe a implementação de uma interface web interativa e intuitiva para a aplicação TrokaTroka. Os usuários poderão cadastrar seus livros, visualizar os livros disponíveis para troca, enviar propostas de troca e acompanhar as negociações em andamento.
+
+
+Além disso, o trabalho também contempla a utilização de técnicas de recomendação e classificação de livros com base nos interesses e preferências
+ 
+dos usuários, a fim de proporcionar sugestões personalizadas e aumentar a eficiência das trocas.
+
+
+A contribuição deste trabalho para o campo da programação web está na criação de uma aplicação prática e útil para a troca de livros. A aplicação TrokaTroka oferece uma alternativa sustentável e econômica para os amantes da leitura, promovendo a circulação de livros e incentivando a reutilização.
+
+
+Em resumo, o trabalho "TrokaTroka: Uma aplicação para trocas de livros" propõe o desenvolvimento de uma plataforma online que facilite a troca de livros entre usuários. Através da programação web, busca-se criar uma interface intuitiva e segura para cadastrar, buscar e negociar livros. Essa contribuição oferece uma solução inovadora para incentivar a circulação de livros e promover a reutilização, contribuindo para um consumo mais sustentável.

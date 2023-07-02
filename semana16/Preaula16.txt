@@ -1,0 +1,31 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: João Vitor de Pina Menezes - 2110972
+DATA: 27/06/2023
+
+O processo de autenticação entre duas aplicações envolve a verificação da identidade de um usuário ou sistema antes de conceder acesso a recursos ou informações protegidas. 
+Existem diferentes métodos de autenticação, mas vou explicar um fluxo básico comumente usado em muitos sistemas.
+
+Solicitação de autenticação: Quando um usuário tenta acessar um recurso protegido em um aplicativo, ele é solicitado a fornecer credenciais de autenticação, como nome de 
+usuário e senha, ou outros fatores de autenticação, como um token de segurança.
+
+Envio das credenciais: O usuário envia as credenciais para o aplicativo que está sendo acessado. Essas credenciais podem ser inseridas em um formulário de login ou enviadas
+ por meio de uma API, dependendo da natureza da interação entre as duas aplicações.
+
+Validação das credenciais: O aplicativo receptor recebe as credenciais e verifica se elas são válidas. Isso geralmente envolve a comparação das credenciais fornecidas com 
+uma base de dados segura que armazena informações de usuários e suas credenciais criptografadas. Se as credenciais forem válidas, o processo de autenticação prossegue; caso 
+contrário, o acesso é negado.
+
+Geração de token de autenticação: Se as credenciais forem válidas, o aplicativo receptor gera um token de autenticação para o usuário. Esse token é um identificador único 
+que é usado para identificar o usuário e validar suas permissões em solicitações subsequentes.
+
+Envio do token de autenticação: O token de autenticação é enviado de volta para o usuário. Ele pode ser incluído em um cabeçalho HTTP, em um cookie ou em outra forma de 
+armazenamento temporário. O token deve ser mantido em segurança pelo usuário, pois ele será usado em todas as solicitações subsequentes para autenticar sua identidade.
+
+Autenticação subsequente: Nas solicitações subsequentes do usuário, o token de autenticação é enviado junto com a solicitação. O aplicativo receptor verifica a validade do
+ token para garantir que ele seja autêntico e não tenha sido manipulado. Se o token for válido, o usuário é considerado autenticado e o acesso aos recursos protegidos é 
+concedido.
+
+É importante ressaltar que esse é um fluxo básico de autenticação e podem haver variações dependendo das tecnologias e protocolos utilizados. Além disso, em alguns casos,
+podem ser utilizados outros fatores de autenticação, como autenticação de dois fatores (2FA), que adiciona uma camada extra de segurança exigindo uma segunda forma de
+autenticação, como um código enviado por SMS ou um aplicativo de autenticação.

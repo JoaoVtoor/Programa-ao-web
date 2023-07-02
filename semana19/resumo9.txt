@@ -1,0 +1,19 @@
+Sistema facilitador para contratação de serviços gerais
+
+
+Este trabalho aborda o desenvolvimento de um sistema que visa facilitar a contratação de serviços gerais. O objetivo é criar uma plataforma online que conecte prestadores de serviços e clientes de maneira eficiente e conveniente, proporcionando uma experiência simplificada de contratação.
+
+
+O sistema proposto oferece uma ampla variedade de categorias de serviços, como limpeza residencial, reparos domésticos, serviços de jardinagem, encanamento, eletricidade, entre outros. Os clientes podem acessar a plataforma, pesquisar pelos serviços desejados e encontrar profissionais qualificados disponíveis em sua região.
+
+
+Além disso, o sistema inclui recursos de avaliação e feedback, permitindo que os clientes compartilhem suas experiências e classifiquem os prestadores de serviços. Isso auxilia na tomada de decisão dos clientes e contribui para a reputação e transparência dos profissionais cadastrados na plataforma.
+
+
+No contexto do mercado de serviços gerais, o trabalho busca implementar e testar o sistema em um ambiente prático, considerando aspectos como facilidade de uso, segurança das transações e qualidade do atendimento ao cliente.
+ 
+
+A contribuição deste trabalho para o campo da contratação de serviços gerais está na proposição de uma solução tecnológica que simplifica e agiliza o processo de contratação. A plataforma oferece conveniência e praticidade aos clientes, ao mesmo tempo em que oferece oportunidades de negócio para os prestadores de serviços independentes.
+
+
+Em resumo, o trabalho "Sistema facilitador para contratação de serviços gerais" propõe o desenvolvimento de uma plataforma online que conecta clientes e prestadores de serviços de maneira simples e eficiente. Através de recursos de pesquisa, avaliação e feedback, busca-se fornecer uma solução completa para facilitar o processo de contratação de serviços gerais. Essa contribuição visa melhorar a experiência dos clientes e oferecer oportunidades de negócio para os profissionais independentes nesse mercado em constante crescimento.

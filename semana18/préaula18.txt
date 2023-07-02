@@ -1,0 +1,39 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: João Vitor de Pina Menezes - 2110972
+DATA: 27/06/2023
+
+A metodologia dos 12 fatores é um conjunto de princípios e boas práticas para desenvolvimento de aplicativos que são projetados para serem escaláveis, flexíveis e de fácil 
+manutenção. Os principais objetivos dessa metodologia são:
+
+Base de código única: O código-fonte de um aplicativo deve ser armazenado em um único repositório, facilitando o versionamento e o controle de alterações.
+
+Dependências explícitas: Todas as dependências externas do aplicativo devem ser explicitamente declaradas, de forma que o ambiente de execução seja reproduzível e previsível.
+
+Configurações separadas do código: As configurações do aplicativo, como credenciais de banco de dados e chaves de API, devem ser armazenadas em variáveis de ambiente ou em 
+serviços de configuração externos, permitindo que o código seja executado em diferentes ambientes sem modificações.
+
+Backends de serviços: O aplicativo deve ser desenvolvido como um conjunto de serviços independentes, cada um responsável por uma única tarefa, seguindo o princípio de 
+arquitetura de microservices.
+
+Build, release e run separados: O processo de construção do aplicativo (build), a preparação para a execução (release) e a execução em si (run) devem ser separados e 
+claramente definidos, facilitando a implantação e a escalabilidade.
+
+Processos descartáveis: Os processos do aplicativo devem ser projetados para serem descartáveis, permitindo que sejam iniciados ou encerrados rapidamente, facilitando a 
+escalabilidade horizontal e a recuperação de falhas.
+
+Bindings de portas: O aplicativo deve ser autocontido e acessível por meio de uma porta designada, permitindo que seja implantado em diferentes ambientes sem conflitos.
+
+Concorrência: O aplicativo deve ser projetado para aproveitar a escalabilidade horizontal e permitir a execução concorrente de processos, maximizando o uso dos recursos 
+disponíveis.
+
+Descoberta de serviços: Os serviços do aplicativo devem ser capazes de descobrir e se comunicar uns com os outros de forma dinâmica, sem depender de configurações estáticas.
+
+Logs tratados como fluxo de eventos: Os logs do aplicativo devem ser tratados como fluxos de eventos, permitindo que sejam facilmente agregados, filtrados e monitorados em 
+tempo real.
+
+Processos de administração: O aplicativo deve fornecer interfaces ou APIs para tarefas de administração, como gerenciamento de banco de dados e configurações, facilitando a 
+administração do sistema.
+
+Construído para escalabilidade: O aplicativo deve ser projetado para escalar horizontalmente, adicionando instâncias adicionais conforme a demanda aumenta, permitindo que o 
+sistema mantenha o desempenho e a disponibilidade.
